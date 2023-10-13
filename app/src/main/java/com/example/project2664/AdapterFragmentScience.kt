@@ -7,9 +7,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class AdapterHome (private val listBuku:List<BukuModel>):
-RecyclerView.Adapter<AdapterHome.ViewHolder>() {
-    class ViewHolder(ItemView: View):RecyclerView.ViewHolder(ItemView) {
+class AdapterFragmentScience (private val listBuku:List<BukuModel>):
+    RecyclerView.Adapter<AdapterFragmentScience.ViewHolder>() {
+    class ViewHolder(ItemView: View): RecyclerView.ViewHolder(ItemView) {
         val image: ImageView = itemView.findViewById(R.id.imageViewBuku1)
         val title: TextView = itemView.findViewById(R.id.textViewJudul1)
         val desc: TextView = itemView.findViewById(R.id.textViewIsi1)
@@ -17,7 +17,7 @@ RecyclerView.Adapter<AdapterHome.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(
-            R.layout.card_layout_home,parent,false)
+            R.layout.card_layout_fragment_fable,parent,false)
         return ViewHolder(view)
     }
 

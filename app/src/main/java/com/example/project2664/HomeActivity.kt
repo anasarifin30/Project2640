@@ -29,6 +29,12 @@ class HomeActivity : AppCompatActivity() {
             "Lorem ipsum Dolor sit amet Lorem ipsum dolor sit amet"))
         data.add(BukuModel(R.drawable.book4,"Mermaid Beach Adventure",
             "Lorem ipsum Dolor sit amet Lorem ipsum dolor sit amet"))
+        data.add(BukuModel(R.drawable.fable1,"Emi's Beach Adventure",
+            "Lorem ipsum Dolor sit amet Lorem ipsum dolor sit amet"))
+        data.add(BukuModel(R.drawable.fable2,"Ade's Beach Adventure",
+            "Lorem ipsum Dolor sit amet Lorem ipsum dolor sit amet"))
+        data.add(BukuModel(R.drawable.fable3,"Mermaid Beach Adventure",
+            "Lorem ipsum Dolor sit amet Lorem ipsum dolor sit amet"))
 
 //        set adapter
         val adapter = AdapterHome(data)
