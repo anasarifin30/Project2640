@@ -17,6 +17,7 @@ class HomeActivity : AppCompatActivity() {
         val btnBook: Button = findViewById(R.id.menu1)
         val btnMore: Button = findViewById(R.id.menu4)
         val btnReading: Button = findViewById(R.id.menu2)
+        val btnSpace: Button = findViewById(R.id.menu3)
         val rvBuku: RecyclerView = findViewById(R.id.recycleViewBook)
 
 //        Set layout manager di RecycleView
@@ -29,11 +30,11 @@ class HomeActivity : AppCompatActivity() {
             "Lorem ipsum Dolor sit amet Lorem ipsum dolor sit amet"))
         data.add(BukuModel(R.drawable.book4,"Mermaid Beach Adventure",
             "Lorem ipsum Dolor sit amet Lorem ipsum dolor sit amet"))
-        data.add(BukuModel(R.drawable.fable1,"Emi's Beach Adventure",
+        data.add(BukuModel(R.drawable.book1,"Emi's Beach Adventure",
             "Lorem ipsum Dolor sit amet Lorem ipsum dolor sit amet"))
-        data.add(BukuModel(R.drawable.fable2,"Ade's Beach Adventure",
+        data.add(BukuModel(R.drawable.book1,"Ade's Beach Adventure",
             "Lorem ipsum Dolor sit amet Lorem ipsum dolor sit amet"))
-        data.add(BukuModel(R.drawable.fable3,"Mermaid Beach Adventure",
+        data.add(BukuModel(R.drawable.book1,"Mermaid Beach Adventure",
             "Lorem ipsum Dolor sit amet Lorem ipsum dolor sit amet"))
 
 //        set adapter
@@ -51,6 +52,11 @@ class HomeActivity : AppCompatActivity() {
         btnReading.setOnClickListener{
             val intentReadingActivity = Intent(this,ReadingActivity::class.java)
             startActivity(intentReadingActivity)
+        }
+
+        btnSpace.setOnClickListener{
+            val intentResponsiActivity = Intent(this,ResponsiActivity::class.java)
+            startActivity(intentResponsiActivity)
         }
 
         btnMore.setOnClickListener {

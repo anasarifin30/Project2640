@@ -42,17 +42,17 @@ class FairyFragment : Fragment() {
         rvBuku.layoutManager = LinearLayoutManager(requireContext())
 //            List data buku
         val data = ArrayList<BukuModel>()
-        data.add(BukuModel(R.drawable.fable1,"Emi's Beach Adventure",
+        data.add(BukuModel(R.drawable.book1,"Emi's Beach Adventure",
             "Lorem ipsum Dolor sit amet Lorem ipsum dolor sit amet"))
-        data.add(BukuModel(R.drawable.fable2,"Ade's Beach Adventure",
+        data.add(BukuModel(R.drawable.book1,"Ade's Beach Adventure",
             "Lorem ipsum Dolor sit amet Lorem ipsum dolor sit amet"))
-        data.add(BukuModel(R.drawable.fable3,"Mermaid Beach Adventure",
+        data.add(BukuModel(R.drawable.book1,"Mermaid Beach Adventure",
             "Lorem ipsum Dolor sit amet Lorem ipsum dolor sit amet"))
-        data.add(BukuModel(R.drawable.fable1,"Emi's Beach Adventure",
+        data.add(BukuModel(R.drawable.book1,"Emi's Beach Adventure",
             "Lorem ipsum Dolor sit amet Lorem ipsum dolor sit amet"))
-        data.add(BukuModel(R.drawable.fable2,"Ade's Beach Adventure",
+        data.add(BukuModel(R.drawable.book1,"Ade's Beach Adventure",
             "Lorem ipsum Dolor sit amet Lorem ipsum dolor sit amet"))
-        data.add(BukuModel(R.drawable.fable3,"Mermaid Beach Adventure",
+        data.add(BukuModel(R.drawable.book1,"Mermaid Beach Adventure",
             "Lorem ipsum Dolor sit amet Lorem ipsum dolor sit amet"))
 
 //        set adapter
